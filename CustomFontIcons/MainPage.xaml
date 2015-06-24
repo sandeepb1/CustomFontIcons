@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="CustomFontIcons.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CustomFontIcons"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#EEEEEE">
+        
+        <Grid Margin="50">
+            <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+            
+            <Grid Grid.Row="0" Background="#FFFFFF" Margin="20">
+                    <TextBlock FontFamily="{StaticResource MaterialFont}" Text="&#xf31b; Settings" Foreground="#E91E63" FontSize="32" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,10,0" />
+            </Grid>
+
+            <Grid Grid.Row="1" Background="#FFFFFF" Margin="20">
+                    <TextBlock FontFamily="{StaticResource MaterialFont}" Text="&#xf2f0; Notifications" Foreground="#009688" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,10,0" />
+            </Grid>
+
+            <Grid Grid.Row="2" Background="#FFFFFF" Margin="20">
+                <TextBlock FontFamily="{StaticResource MaterialFont}" Text="&#xf376; Bluetooth" Foreground="#2196F3" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,10,0" />
+            </Grid>
+
+        </Grid>
+        
+    </Grid>
+</Page>
